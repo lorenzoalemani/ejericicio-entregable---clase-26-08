@@ -5,7 +5,7 @@
 namespace AccesoDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class initial1 : Migration
+    public partial class inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

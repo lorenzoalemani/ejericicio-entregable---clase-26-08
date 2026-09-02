@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|solutionrelative:appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Migrations\\20260902220856_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260902220856_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|solutionrelative:appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20260902220856_inicial.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Migrations\\20260902220856_inicial.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260902220856_inicial.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Migrations\\20260902220856_inicial.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260902220856_inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:08:57.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "AccesoDatos\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T22:30:49.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Data\\AplicationDbContext.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Models\\Categoria.cs",
@@ -79,20 +96,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AppConsola\\Program.cs",
               "RelativeDocumentMoniker": "AppConsola\\Program.cs",
               "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AppConsola\\Program.cs",
               "RelativeToolTip": "AppConsola\\Program.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAANQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T22:47:21.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Libro.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Models\\Libro.cs",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\IGenericRepository.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Autor.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Autor.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Models\\Autor.cs",
