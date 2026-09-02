@@ -23,3 +23,16 @@ C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\U9-EntityFramewo
 C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\U9-EntityFramework\AppConsola\AccesoDatos\obj\Debug\net10.0\refint\AccesoDatos.dll
 C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\U9-EntityFramework\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.pdb
 C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\U9-EntityFramework\AppConsola\AccesoDatos\obj\Debug\net10.0\ref\AccesoDatos.dll
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\bin\Debug\net10.0\AccesoDatos.deps.json
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\bin\Debug\net10.0\AccesoDatos.dll
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\bin\Debug\net10.0\AccesoDatos.pdb
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.sourcelink.json
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.dll
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\refint\AccesoDatos.dll
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.pdb
+C:\Users\loren\OneDrive\Documentos\GitHub\Ejercicios-entregable\ejericicio-entregable---clase-26-08\AppConsola\AccesoDatos\obj\Debug\net10.0\ref\AccesoDatos.dll

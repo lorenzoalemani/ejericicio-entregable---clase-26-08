@@ -11,7 +11,7 @@ namespace AccesoDatos.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=C:\\databases\\ejemplo.db");
+            optionsBuilder.UseSqlite("Data Source=C:\\databases\\exampleDB.db");
         }
     }
 }

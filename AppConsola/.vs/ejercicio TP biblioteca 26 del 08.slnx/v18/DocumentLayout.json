@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|solutionrelative:appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\loren\\onedrive\\documentos\\github\\ejercicios-entregable\\ejericicio-entregable---clase-26-08\\appconsola\\accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:30:49.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "AccesoDatos\\Data\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T21:42:12.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Categoria.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T20:20:32.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AppConsola\\Program.cs",
+              "RelativeDocumentMoniker": "AppConsola\\Program.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AppConsola\\Program.cs",
+              "RelativeToolTip": "AppConsola\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAANQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:47:21.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Libro.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T22:13:42.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:29:18.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Autor.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\Models\\Autor.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T22:13:06.472Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

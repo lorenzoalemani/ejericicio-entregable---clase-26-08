@@ -18,14 +18,23 @@ namespace AccesoDatos.Repositories
             return _context.Set<T>().AsNoTracking().ToList();
         }
 
-        // 2. ALTA (INSERT), es decir, se agrega un registro en la tabla de la base de datos.
+        // NUEVO MÉTODO CON INCLUDE
+        public List<T> ObtenerTodosCon(string propiedadRelacionada)
+        {
+            return _context.Set<T>()
+                .Include(propiedadRelacionada)
+                .AsNoTracking()
+                .ToList();
+        }
+
+        // 2. ALTA (INSERT)
         public void Agregar(T entidad)
         {
             _context.Set<T>().Add(entidad);
             _context.SaveChanges();
         }
 
-        // 3. BAJA (DELETE) - Busca por ID y elimina.
+        // 3. BAJA (DELETE)
         public void Eliminar(object id)
         {
             var entidad = _context.Set<T>().Find(id);
@@ -36,7 +45,7 @@ namespace AccesoDatos.Repositories
             }
         }
 
-        // 4. MODIFICACIÓN (UPDATE) - Actualiza la entidad completa.
+        // 4. MODIFICACIÓN (UPDATE)
         public void Modificar(T entidad)
         {
             _context.Set<T>().Update(entidad);
@@ -46,9 +55,7 @@ namespace AccesoDatos.Repositories
         // 5. BÚSQUEDA POR ID
         public T ObtenerPorId(int id)
         {
-            // Busca directamente en el conjunto de datos del tipo T correspondientes
             return _context.Set<T>().Find(id);
         }
-
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5nokJWWfuJE=",
+  "dgSpecHash": "nWXVv4tfmdE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\U9-EntityFramework\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
+  "projectFilePath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.11\\microsoft.data.sqlite.core.10.0.11.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.11\\microsoft.entityframeworkcore.10.0.11.nupkg.sha512",

@@ -14,5 +14,6 @@ namespace AccesoDatos.Repositories
         T ObtenerPorId(int id);
         void Eliminar(object id);     
         void Modificar(T entidad);
+        List<T> ObtenerTodosCon(string propiedadRelacionada);
     }
 }

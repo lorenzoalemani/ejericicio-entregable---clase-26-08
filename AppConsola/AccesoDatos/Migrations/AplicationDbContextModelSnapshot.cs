@@ -31,6 +31,21 @@ namespace AccesoDatos.Migrations
                     b.ToTable("Autor");
                 });
 
+            modelBuilder.Entity("AccesoDatos.Models.Categoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categoria");
+                });
+
             modelBuilder.Entity("AccesoDatos.Models.Libro", b =>
                 {
                     b.Property<int>("Id")
@@ -43,6 +58,12 @@ namespace AccesoDatos.Migrations
                     b.Property<int>("AutorId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("CategoriaId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("Estado")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Titulo")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -50,6 +71,8 @@ namespace AccesoDatos.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AutorId");
+
+                    b.HasIndex("CategoriaId");
 
                     b.ToTable("Libro");
                 });
@@ -62,12 +85,25 @@ namespace AccesoDatos.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("AccesoDatos.Models.Categoria", "Categoria")
+                        .WithMany("listalibros")
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Autor");
+
+                    b.Navigation("Categoria");
                 });
 
             modelBuilder.Entity("AccesoDatos.Models.Autor", b =>
                 {
                     b.Navigation("Listalibros");
+                });
+
+            modelBuilder.Entity("AccesoDatos.Models.Categoria", b =>
+                {
+                    b.Navigation("listalibros");
                 });
 #pragma warning restore 612, 618
         }

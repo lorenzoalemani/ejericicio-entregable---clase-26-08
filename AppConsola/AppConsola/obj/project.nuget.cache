@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kMSIh6q3Y3w=",
+  "dgSpecHash": "aeSJ2Q6Flyo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\U9-EntityFramework\\AppConsola\\AppConsola\\AppConsola.csproj",
+  "projectFilePath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AppConsola\\AppConsola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loren\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
