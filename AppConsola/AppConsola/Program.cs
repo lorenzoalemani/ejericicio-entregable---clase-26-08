@@ -3,9 +3,9 @@ using AccesoDatos.Repositories;
 
 // 1. Instanciamos el repositorio.
 
-IGenericRepository<Autor> autorRepository = new GenericRepository<Autor>();
-IGenericRepository<Libro> libroRepository = new GenericRepository<Libro>();
-IGenericRepository<Categoria> categoriaRepository = new GenericRepository<Categoria>();
+IGenericRepository<Socio> socioRepository = new GenericRepository<Socio>();
+IGenericRepository<Pelicula> peliculaRepository = new GenericRepository<Pelicula>();
+IGenericRepository<Alquiler> alquilerRepository = new GenericRepository<Alquiler>();
 bool continuar = true;
 
 while (continuar)
@@ -14,15 +14,15 @@ while (continuar)
     Console.WriteLine("Gestión de Biblioteca");
     Console.WriteLine("=================================================");
     Console.WriteLine();
-    Console.WriteLine("1. Agregar Autor (Alta)");
-    Console.WriteLine("2. Agregar Libro (Alta)");
-    Console.WriteLine("3. Ver todos los libros");
-    Console.WriteLine("4. Agregar Categoria (Alta)");
-    Console.WriteLine("5. Ver categorias");
-    Console.WriteLine("6. Modificar libro");
-    Console.WriteLine("7. Modificar autor");
-    Console.WriteLine("8. Eliminar libro");
-    Console.WriteLine("9. Salir");
+    Console.WriteLine("1. Agregar Socio (Alta)");
+    Console.WriteLine("2. Agregar Pelicula (Alta)");
+    Console.WriteLine("3. registrar alquiler");
+    Console.WriteLine("4. Ver alquileres por cada socio");
+    Console.WriteLine("5. Ver alquileres con demora de devolucion por cada socio");
+    Console.WriteLine("6. Ver reportes de pelis mas alquiladas");
+    Console.WriteLine("7. reporte con el socio que más películas alquilo.");
+
+    Console.WriteLine("8. Salir");
 
 
     Console.Write("Seleccione una opción: ");
@@ -32,216 +32,265 @@ while (continuar)
     switch (opcion)
     {
         case "1":
-            AltaAutor();
+            AltaSocio();
             break;
 
         case "2":
-            AltaLibro();
+            AltaPelicula();
             break;
 
         case "3":
-            Mostrartodosloslibros();
+            RegistrarAlquiler();
             break;
 
         case "4":
-            CrearCategoria();
+            veralquileresporsocio();
 
             break;
         case "5":
-            VerCategorias();
+            veralquilerescondemora();
             break;
         case "6":
-            Modificarnombrelibro();
+            verpeliculasmasalquiladas();
             break;
         case "7":
-            ModificarNombreAutor();
+            versocioquemaspelisalquilo();
             break;
         case "8":
-            EliminarLibro();
-            break;
-        case "9":
             Console.WriteLine("¡Cerrando el sistema de biblioteca!");
             continuar = false;
-            
+
             break;
-            default:
+
+        default:
             Console.WriteLine("Opción no válida. Intente nuevamente.");
-            PresioneParaContinuar();
+         
             break;
     }
 }
 
-void AltaAutor()
+void AltaSocio()
 {
-    Console.Write("Ingrese el nombre del autor: ");
+    Console.Write("Ingrese el nombre del socio: ");
     string name = Console.ReadLine();
-    var nuevoAutor = new Autor
+    Console.WriteLine("ingrese el apellido");
+    string apellido = Console.ReadLine();
+    Console.WriteLine("ingrese el dni");
+    int dni = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("ingrese el telefono");
+    int telefono = int.Parse(Console.ReadLine());
+    var nuevoSocio = new Socio
     {
+      
        Nombre = name,
+       Apellido = apellido,
+       Dni = dni,
+       Telefono = telefono
+
        
     };
 
-    autorRepository.Agregar(nuevoAutor);
+    socioRepository.Agregar(nuevoSocio);
     Console.WriteLine("Usuario agregado exitosamente.");
-    PresioneParaContinuar();
+
 }
-void AltaLibro()
+void AltaPelicula()
 {
-    Console.WriteLine("ingrese el titulo del libro");
+    Console.WriteLine("ingrese el titulo de la pelicula");
     string titulo = Console.ReadLine();
 
     
 
-    Console.WriteLine("ingrese el anio de publicacion");
-    int fecha = int.Parse(Console.ReadLine());
+    Console.WriteLine("ingrese el autor");
+    string autor = Console.ReadLine();
 
-    var autores = autorRepository.ObtenerTodos();
-    foreach(var a in autores)
-    {
-        Console.WriteLine($"id: {a.Id} | Nombre: {a.Nombre}");
-    }
-    Console.WriteLine("ingrese el id del autor al que quiere asignarle el libro");
-    int idl = int.Parse(Console.ReadLine());
-    var autor = autorRepository.ObtenerPorId(idl);
-
-    var Categorias = categoriaRepository.ObtenerTodos();
-    foreach( var categoria in Categorias)
-    {
-        Console.WriteLine($" ID: {categoria.Id} |  Nombre {categoria.Nombre}");
-    }
-
-    Console.WriteLine("ingrese el id de la categoria q quiere asignarle al libro");
-    int id = int.Parse(Console.ReadLine());
-    var Categoria = categoriaRepository.ObtenerPorId(id);
+   Console.WriteLine("ingrese la cantidad q hay disponibles");
+   int cantidad = int.Parse(Console.ReadLine());
     
 
-        var nuevoLibro = new Libro
+        var nuevoPelicula = new Pelicula
     {
        
         Titulo = titulo,
-        Anio = fecha,
-        AutorId = idl,
-        Estado = true,
-        CategoriaId = id,
+        Autor = autor,
+        Cantidad = cantidad,
     };
 
-    libroRepository.Agregar(nuevoLibro);
-    Console.WriteLine("Libro agregado exitosamente.");
-    autor.Listalibros.Add(nuevoLibro);
-    Categoria.listalibros.Add(nuevoLibro);
-    PresioneParaContinuar();
+    peliculaRepository.Agregar(nuevoPelicula);
+    Console.WriteLine("Pelicula agregado exitosamente.");
+   
+  
 
 }
 
 
 
-void ModificarNombreAutor()
+void RegistrarAlquiler()
 {
-    var listaautores = autorRepository.ObtenerTodos();
-    foreach(var a in listaautores)
+    var listasocios = socioRepository.ObtenerTodos();
+    foreach(var a in listasocios)
     {
-        Console.WriteLine($"ID :{a.Id} ||| NOMBRE:{a.Nombre}");
+        Console.WriteLine($"ID :{a.Id} ||| NOMBRE:{a.Nombre} ||| APELLIDO: {a.Apellido}");
     }
-    Console.WriteLine("ingrese el id del autor a modificar");
-    if (int.TryParse(Console.ReadLine(), out int id))
-    {
-        var autorcambiar = autorRepository.ObtenerPorId(id);
-        if(autorcambiar != null)
+    Console.WriteLine("ingrese el id del socio que quieres registrar el alquiler");
+    int id = int.Parse(Console.ReadLine());
+
+        var socio = socioRepository.ObtenerPorId(id);
+        if(socio != null)
         {
-            Console.WriteLine("ingrese el nombre nuevo para el autor");
-            autorcambiar.Nombre = Console.ReadLine();
-            autorRepository.Modificar(autorcambiar);
-            Console.WriteLine("nombre de autor cambiado correctamente");
+            Console.WriteLine("socio encontrado con exito");
         }
         else
         {
             Console.WriteLine("No se encontró ningún usuario con ese ID.");
         }
-    }
-    else
-    {
-        Console.WriteLine("ID inválido.");
-    }
+   
+    var listapelis = peliculaRepository.ObtenerTodos();
+    Console.WriteLine("ingrese cuantas pelis quiere alquilar");
+    int cant = int.Parse (Console.ReadLine());
 
-}
-
-void Modificarnombrelibro()
-{
-    Mostrartodosloslibros();
-    Console.WriteLine("ingrese el id del libro");
-    if (int.TryParse(Console.ReadLine(), out int id))
+    List<Pelicula> peliculasseleccionadas = new List<Pelicula>();
+    for(int i = 0; i < cant; i++)
     {
-        var librocambiar = libroRepository.ObtenerPorId(id);
-        if(librocambiar != null)
+        foreach (var a in listapelis)
         {
-            Console.WriteLine("ingrese el nuevo nombre para el libro");
-            librocambiar.Titulo = Console.ReadLine();
-            libroRepository.Modificar(librocambiar);
-            Console.WriteLine("titulo del libro modificado correctamente");
+            Console.WriteLine($"ID :{a.Id} ||| NOMBRE:{a.Titulo} |||   {a.Autor}");
+        }
+        Console.WriteLine("ingrese el id de la peli que quiere alquilar");
+        int idp = int.Parse(Console.ReadLine());
+        var peli = peliculaRepository.ObtenerPorId(idp);
+        if (peli.Cantidad > 0)
+        {
+            peliculasseleccionadas.Add(peli);
+            peli.Cantidad--;
+            peliculaRepository.Modificar(peli);
         }
         else
         {
-            Console.WriteLine("no se encontro libro con ese id");
+            Console.WriteLine("no se puede agregar la peli porque no hay cantidad suficiente");
+            i--;
         }
+        
+
+        
+    }
+    Console.WriteLine("ingrese el monto");
+    decimal monto = decimal.Parse(Console.ReadLine());
+    if(peliculasseleccionadas.Count > 0)
+    {
+        var nuevoalquiler = new Alquiler
+        {
+            Socioid = id,
+            Fechaentrega = DateTime.Now,
+            Fechadevolucion = DateTime.Now.AddDays(7),
+            listapeliculas = peliculasseleccionadas,
+            Monto = monto,
+            
+        };
+        alquilerRepository.Agregar(nuevoalquiler);
+        socio.Alquileres.Add(nuevoalquiler);
+        socioRepository.Modificar(socio);
     }
     else
     {
-        Console.WriteLine("id invalido");
+        Console.WriteLine("no se puede registrar el alquiler porque no hay peliculas seleccionadas");
     }
+    
 }
-void CrearCategoria()
+
+void veralquileresporsocio()
 {
-    Console.WriteLine("ingrese el nombre de la categoria");
-    string nombre = Console.ReadLine();
-    var nuevadategoria = new Categoria
+    var socios = socioRepository.ObtenerTodosCon("Alquileres.listapeliculas");
+    foreach (var s in socios)
     {
-        Nombre = nombre,
-    };
-    categoriaRepository.Agregar(nuevadategoria);
-}
-void VerCategorias()
-{
-    var vercategorias = categoriaRepository.ObtenerTodos();
-    foreach( var categoria in vercategorias)
-    {
-        Console.WriteLine(categoria.Nombre);
+        Console.WriteLine($"Nombre: {s.Nombre} | Apellido: {s.Apellido} ");
+        foreach (var sa in s.Alquileres)
+        {
+            foreach (var pelis in sa.listapeliculas)
+            {
+                Console.WriteLine($"Titulo: {pelis.Titulo}");
+            }
+        }
     }
 }
 
-void EliminarLibro()
+void veralquilerescondemora()
 {
-    var verlista = libroRepository.ObtenerTodosCon("Autor");
-    foreach(var libro in verlista)
+    var socios = socioRepository.ObtenerTodosCon("Alquileres");
+    foreach( var s in socios)
     {
-        Console.WriteLine($"Nombre : {libro.Id} Titulo: {libro.Titulo}   Autor: {libro.Autor.Nombre}   AutorID: {libro.AutorId}");
-    }
-    Console.WriteLine("ingrese el id del libro q desea eliminar");
-    if (int.TryParse(Console.ReadLine(), out int id))
-    {
-        var libro = libroRepository.ObtenerPorId(id);
-        if (libro != null)
+        foreach(var sa in s.Alquileres)
         {
-            libro.Estado = false;
-            Console.WriteLine("libro eliminado correctamente");
+            
+            if(sa.Fechadevolucion < DateTime.Now)
+            {
+                decimal montofinal = sa.calcularrecarga();
+                sa.Monto = montofinal;
+                Console.WriteLine($"Nombre: {s.Nombre}, tiene el alquier vencido y el monto al final es {montofinal}");
+                alquilerRepository.Modificar(sa);
+
+            }
         }
     }
 
+    
 }
 
-
-void Mostrartodosloslibros()
+void verpeliculasmasalquiladas()
 {
-    Console.WriteLine("LISTA DE LOS LIBROS ACTUALES");
-    var listalibros = libroRepository.ObtenerTodosCon("Autor");
-    foreach( var l in listalibros)
+    var Alquileres = alquilerRepository.ObtenerTodosCon("listapeliculas");
+    var Peliculas = peliculaRepository.ObtenerTodos();
+    int max = 0;
+    int idmasbuscado = -1;
+   foreach(var p in Peliculas)
     {
-        Console.WriteLine($"ID : {l.Id} | TITULO: {l.Titulo} | ANIO: {l.Anio} | AUTOR {l.Autor.Nombre} | AUTORid {l.AutorId}");
+        int contador = 0;
+        foreach(var a in Alquileres)
+        {
+            foreach(var al in a.listapeliculas)
+            {
+                if(al.Id == p.Id)
+                {
+                    contador++;
+                }
+            }
+        }
+
+        if(contador > max)
+        {
+            max = contador;
+            idmasbuscado = p.Id;
+        }
     }
+   if(idmasbuscado >= 0)
+    {
+        var pelimb = peliculaRepository.ObtenerPorId(idmasbuscado);
+        Console.WriteLine($"la pelicula mas alquilada es {pelimb.Titulo} ");
+    }
+    
 }
 
-void PresioneParaContinuar()
+void versocioquemaspelisalquilo()
 {
-    Console.WriteLine("\nPresione cualquier tecla para continuar...");
-    Console.ReadKey();
-    Console.Clear();
+    var socio = socioRepository.ObtenerTodosCon("Alquileres.listapeliculas");
+    int max = 0;
+    int idsocio = -1;
+    foreach (var s in socio)
+    {
+        int totalsocio = 0;
+        foreach (var sa in s.Alquileres)
+        {
+            totalsocio += sa.listapeliculas.Count;
+
+        }
+        if (totalsocio > max)
+        {
+            max = totalsocio;
+            idsocio = s.Id;
+        }
+    }
+
+    var sociomas = socioRepository.ObtenerPorId(idsocio);
+    Console.WriteLine($"el socio con mas pelis alquiladas es {sociomas.Nombre}");
 }

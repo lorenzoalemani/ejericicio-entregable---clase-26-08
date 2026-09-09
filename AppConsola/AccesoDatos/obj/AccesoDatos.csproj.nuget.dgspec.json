@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicioVIDEOCLUB\\AppConsola\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicioVIDEOCLUB\\AppConsola\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicioVIDEOCLUB\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
+        "projectPath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicioVIDEOCLUB\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicio-entregable---clase-26-08\\AppConsola\\AccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\loren\\OneDrive\\Documentos\\GitHub\\Ejercicios-entregable\\ejericicioVIDEOCLUB\\AppConsola\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,7 +50,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             }
           },
           "imports": [

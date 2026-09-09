@@ -31,7 +31,7 @@ namespace AccesoDatos.Repositories
         public void Agregar(T entidad)
         {
             _context.Set<T>().Add(entidad);
-            _context.SaveChanges();
+             _context.SaveChanges();
         }
 
         // 3. BAJA (DELETE)
@@ -57,5 +57,7 @@ namespace AccesoDatos.Repositories
         {
             return _context.Set<T>().Find(id);
         }
+
     }
+
 }
